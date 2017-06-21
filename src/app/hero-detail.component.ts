@@ -16,8 +16,6 @@ import { HeroService } from './hero.service';
 export class HeroDetailComponent implements OnInit {
   hero: Hero;
 
-  private headers = new Headers({'Content-Type': 'application/json'});
-
   constructor(
     private heroService : HeroService,
     private route: ActivatedRoute,
